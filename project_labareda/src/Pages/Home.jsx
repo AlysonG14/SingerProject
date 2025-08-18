@@ -1,8 +1,7 @@
 import React from "react";
 import { Header } from "../Components/Header";
 import { Footer } from "../Components/Footer";
-import ImagemLabareda01 from "../assets/labareda01.jpg";
-import ImagemLabareda02 from "../assets/labareda02.png";
+import ImagemLabareda from "../assets/labareda02.png";
 
 function Artista(props) {
   return (
@@ -26,7 +25,7 @@ export function Home() {
 
       <section>
         <h2>Labareda</h2>
-        <img src={ImagemLabareda01} alt="Imagem da Música 01"></img>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LyDFyrgW7yQ?si=Dh8dNV6DD3965IxL&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>
           A história da música 'Labareda', que foi interpretada pela dupla
           Jefferson & Suellen, é uma expressão de fé e espiritualidade
@@ -37,13 +36,13 @@ export function Home() {
       </section>
 
       <section>
-        <img src={ImagemLabareda02} alt="Imagem da Música 02"></img>
+        <img src={ImagemLabareda} alt="Imagem da Música 02"></img>
         <p>
           O significado da música 'Vem como labareda de fogo' é um pedido para
           que essa mesma energia e poder divinos se manifestam nos dias atuais,
           tocando os corações e as almas dos crentes. Ela conta sobre um desejo
-          ardente por uma inspiração espiritual intensa e transformadora. Labar
-          eda é uma música que, além de seu religioso significado, busca conect
+          ardente por uma inspiração espiritual intensa e transformadora. Labareda 
+          é uma música que, além de seu religioso significado, busca conect
           ar os fiéis com uma sensação de comunidade e propósito compartilhado
           para conectar mais com Deus e ter fé, recebendo a graça divina e ser
           em transformado pelo 'fogo' do <strong> Espírito Santo </strong>

@@ -11,21 +11,19 @@ export function Header() {
     <header className={styles.header_container}>
       <img className={styles.img} src={imagemLogo} alt="Imagem da logo"></img>
       <nav className={styles.nav_bar}>
-        <ul>
 
-          <li><a href="#">Sobre a música</a></li>
+          <a href="/inicio/">Sobre a música</a>
 
-          <li><a onClick={((e) => {
+          <a onClick={((e) => {
             e.preventDefault;
             window.location.href = "/inicio/discografia/";
-          })} href="#">Discografia</a></li>
+          })} href="#">Discografia</a>
 
-          <li><a onClick={((e) => {
+          <a onClick={((e) => {
             e.preventDefault;
             window.location.href = "/inicio/ranking/"
-          })} href="#">Ranking</a></li>
+          })} href="#">Ranking</a>
 
-        </ul>
         <SiApplemusic size={50} color="white" />
         <FaCircleUser size={50} color="white" />
       </nav>
