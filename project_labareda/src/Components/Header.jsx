@@ -6,46 +6,52 @@ import { FaCircleUser } from "react-icons/fa6";
 export function Header() {
   return (
 
-    <header className="bg-orange-200 pb-3 border-b-2 border-orange-400">
+    <header className="flex justify-between bg-orange-200 pb-3 border-b-2 border-orange-400 ">
 
       {/* Imagem da Logo */}
 
-      <figure className="flex w-fit items-center justify-center">
+      <figure className="flex w-fit items-center justify-center transition duration-300 ease-in-out hover:scale-120">
 
-        <img className="w-25 h-full p-4" src={imagemLogo} alt="Imagem da logo"></img>
+        <img className="w-25 h-full p-4 cursor-pointer" src={imagemLogo} alt="Imagem da logo"></img>
 
       </figure>
 
 
       {/* Navegação */}
 
-      <nav className="flex justify-end-safe items-center gap-15 ">
+      <nav className="flex mt-5 items-center gap-20 transition duration-300 ease-in-out hover:scale-120">
 
-        <a onClick={(e) => {
-          e.preventDefault;
-          window.location.href = "/inicio/";}} href="#">Sobre a música</a>
-
-        <a
-          onClick={(e) => {
-            e.preventDefault; 
-            window.location.href = "/inicio/discografia/";}} href="#">Discografia
-        </a>
-
-        <a
-          onClick={(e) => {
+        <section className="duration-300 ease-in-out hover:scale-125">
+          <a onClick={(e) => {
             e.preventDefault;
-            window.location.href = "/inicio/ranking/";}} href="#">Ranking
-        </a>
+            window.location.href = "/home/";}} href="#">Sobre a música</a>
+        </section>
+
+        <section className="duration-300 ease-in-out hover:scale-125">
+          <a
+            onClick={(e) => {
+              e.preventDefault; 
+              window.location.href = "/home/discografia/";}} href="#">Discografia
+          </a>
+        </section>
+
+        <section className="duration-300 ease-in-out hover:scale-125">
+          <a
+            onClick={(e) => {
+              e.preventDefault;
+              window.location.href = "/home/ranking/";}} href="#">Ranking
+          </a>
+        </section>
 
       </nav>
           {/* Ícones */}
             
-          <section className="flex justify-end-safe">
+          <section className="flex items-center mt-4 gap-15 mr-8">
         
 
-            <SiApplemusic className="cursor-pointer" size={30} color="white" />
+            <SiApplemusic className="cursor-pointer transition duration-300 ease-in-out hover:scale-120" size={40} color="black" />
 
-            <FaCircleUser className="cursor-pointer" size={30} color="white" />
+            <FaCircleUser className="cursor-pointer transition duration-300 ease-in-out hover:scale-120" size={40} color="black" />
 
           </section>
     

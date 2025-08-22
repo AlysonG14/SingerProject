@@ -14,9 +14,10 @@ export function Footer() {
         <p>Criado por: <strong>Alyson Pereira dos santos </strong> </p>
         <p>© Labareda - 2020</p>
 
-      </section>
       
-      <figure className="flex flex-initial">
+      </section>
+
+      <figure className="flex flex-initial trasnsition duration-300 ease-in-out hover:scale-120">
 
         <img className="cursor-pointer w-20 h-full justify-end-safe pr-3" src={logoMusica} alt="Imagem da Logo"></img>
 
