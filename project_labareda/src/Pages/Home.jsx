@@ -7,17 +7,15 @@ import JeffersonImg from "../assets/Jefferson.png";
 
 function Artista({nome, imagemAtor, idade, descricao, altImg}) {
   return (
-        <div className="grid grid-cols-2 items-center justify-center">
-        <figure className="bg-[#5B21B6] text-white p-5">
-
-          <img src={imagemAtor} alt={altImg}></img>
-          <figcaption>
-            <h2>{nome}</h2>
-            <h3>{idade}</h3>
-            <p>{descricao}</p>
-          </figcaption>
-        </figure>
-        
+        <div className="grid grid-cols-2 justify-center">
+          <figure className="bg-[#5B21B6] rounded-xl text-white p-5">
+            <img className="rounded-xl transition ease-in-out hover:scale-105" src={imagemAtor} alt={altImg}></img>
+            <figcaption className="bg-purple-900">
+              <h2>{nome}</h2>
+              <h3>{idade}</h3>
+              <p>{descricao}</p>
+            </figcaption>
+          </figure>
         </div>
   );
 }

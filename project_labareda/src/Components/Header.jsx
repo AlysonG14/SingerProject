@@ -24,14 +24,14 @@ export function Header() {
         <section className="duration-300 ease-in-out hover:scale-125">
           <a onClick={(e) => {
             e.preventDefault;
-            window.location.href = "/home/";}} href="#">Sobre a música</a>
+            window.location.href = "/";}} href="#">Sobre a música</a>
         </section>
 
         <section className="duration-300 ease-in-out hover:scale-125">
           <a
             onClick={(e) => {
               e.preventDefault; 
-              window.location.href = "/home/discografia/";}} href="#">Discografia
+              window.location.href = "/discografia/";}} href="#">Discografia
           </a>
         </section>
 
@@ -39,7 +39,7 @@ export function Header() {
           <a
             onClick={(e) => {
               e.preventDefault;
-              window.location.href = "/home/ranking/";}} href="#">Ranking
+              window.location.href = "/ranking/";}} href="#">Ranking
           </a>
         </section>
 

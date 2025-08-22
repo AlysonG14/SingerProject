@@ -9,9 +9,9 @@ export function Rotas() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/home/" element={<Home />} />
-          <Route path="/home/discografia/" element={<Discografia />} />
-          <Route path="/home/ranking/" element={<Ranking />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/discografia/" element={<Discografia />} />
+          <Route path="/ranking/" element={<Ranking />} />
         </Routes>
       </BrowserRouter>
     </>
