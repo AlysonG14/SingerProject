@@ -10,6 +10,10 @@ export function Ranking() {
   return (
     <div className="bg-[#5B21B6]">
       <Header />
+
+
+      {/* Esse será a página de todas as plataformas rankeadas da banda */}
+
     <main className="min-h-screen bg-[#5B21B6] text-white m-5 mt-70">
       <div className="flex justify-center">
         <section className="bg-[#1F2937] grid w-250 grid-cols-2 rounded-xl p-5 text-center text-xl">
@@ -17,6 +21,10 @@ export function Ranking() {
             <p>Melhor Posição</p>
           
           <div className="border border-[#5B21B6] bg-[#111827]">
+
+            {/* Usei o grid para separar em 2 partes de Plataforma e a Melhor posição */}
+
+            {/* Ranking em Plataformas */}
 
             <section className="p-4 gap-10 border-b-1 flex justify-center-safe border-[#5B21B6]">
               <p><FaItunes className="ml-1.5 transition ease-in-out duration-200 hover:scale-110" size={40} /> Itunes </p>
@@ -31,6 +39,8 @@ export function Ranking() {
             </section>
 
           </div>
+
+          {/* Melhor Posição */}
 
           <div className="border border-[#5B21B6] bg-[#111827]">
 

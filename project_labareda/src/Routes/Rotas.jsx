@@ -9,6 +9,7 @@ export function Rotas() {
     <>
       <BrowserRouter>
         <Routes>
+          {/* Rotas sobre todos as páginas linkadas */}
           <Route path="/" element={<Home />} />
           <Route path="/discografia/" element={<Discografia />} />
           <Route path="/ranking/" element={<Ranking />} />
