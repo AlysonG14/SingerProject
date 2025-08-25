@@ -13,7 +13,8 @@ export function Discografia() {
 
         <h1>🎵 Discografia Completa (2020-2025)</h1>
 
-        <ul>
+      <section className="flex gap-2">
+        <ul className="grid grid-cols-2 gap-3">
           <img src=""></img>
           <li>Labareda - 2020</li>
           <img src=""></img>
@@ -43,6 +44,7 @@ export function Discografia() {
           <img src=""></img>
           <li>Ele vem - 2025</li>
         </ul>
+      </section>
 
       </section>
 

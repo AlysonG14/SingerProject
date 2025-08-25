@@ -14,6 +14,8 @@ export function Footer() {
         <p>Criado por: <strong>Alyson Pereira dos santos </strong> </p>
         <p>© Labareda - 2020</p>
 
+        {/* Imagem da logo */}
+
       
       </section>
 

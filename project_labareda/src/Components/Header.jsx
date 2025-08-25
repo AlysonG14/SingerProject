@@ -54,8 +54,6 @@ export function Header() {
             <FaCircleUser className="cursor-pointer transition duration-300 ease-in-out hover:scale-120" size={40} color="black" />
 
           </section>
-    
-
       
     </header>
   );
